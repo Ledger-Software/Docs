@@ -1,6 +1,9 @@
 # Documentation
 *_Describe Placement of Files here_*
 
+## Problem Statement
+Many currently marketed home and business finanace and accounting programs are insufficent in that they are not tailored to be flexible enough to meet all the needs of their clients, or that they are forcing a feature that isn't essential to the clients' needs. Our goal is to develop an easy to use, flexible application that will satisfactorily handle the client's finance and accounting related tasks.
+
 #Development Systems
 ## IDE
 [Jetbrains] Java IDE named [IDEA]
