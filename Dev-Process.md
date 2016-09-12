@@ -67,7 +67,7 @@ There should be Integration and System tests but those will be decided on a feat
 
 ### WhiteSpace
 
-There should be no tab character in any of the source code. It should be either 2 or 4 spaces.
+There should be no tab character in any of the source code. It should be 4 spaces.
 ('\t' in strings is allowed)
 
 ### Documentation
