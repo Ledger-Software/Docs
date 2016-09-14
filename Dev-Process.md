@@ -24,9 +24,8 @@ feature branch they are working on.
 
 ## Code Review
 
-All code needs to be seen by at least three people. Before a pull request is merged at least
-two people must approve the pull. If the pull request was pair programmed the one who did not
-post the pull request may count as one of the reviewers (still must comment in the pull request).
+All code needs to be reviewed by at least two people. Before a pull request is merged at least two people must approve the pull. If the pull request was pair programmed the one who did not post the pull request may count as one of the reviewers (still must
+comment in the pull request).
 
 ### Puller
 
@@ -35,10 +34,13 @@ progress of that feature that the pull request address.
 
 State what type of feedback you want if it is not just general implementation and functionality checks.
 
+The puller is also responsible for merging the branch once sufficient
+reviews have been performed.
+
 ### Reviewer
 
-Check to make sure what is stated as done is completed and that the merge will not adversely affect the base branch.
-Unless asked the review should be short and simple. See the following list of normal things to check for.
+Check to make sure what is stated as done is completed and that the merge will not adversely affect the base branch. Reviewers should check off their name on the
+[Trello](https://trello.com/ledger3) ticket once their review is complete and any issues have been addressed. Unless asked the review should be short and simple. See the following list of normal things to check for.
 
 * Naming
   * Inconsistent Names
@@ -80,5 +82,5 @@ then a paragraph. If more is needed that is indicative that a refactor is needed
 The team will use a scrum based process to aid in development. Sprints will be
 one week long. Sprint retrospective and grooming will be held each Wednesday
 after the meeting with the client. Stand-up meetings will be held each Monday,
-Wednesday, and Friday at 5pm in one of the department's Computer Science labs.
-[Trello](https://trello.com/ledger3) will be used to track the project's tasks. 
+Wednesday, and Friday. Monday meetings will be held at 5pm in one of the department's Computer Science labs. Wednesday meetings will be held at 2:30, and Friday meetings
+will be held at 3:30. [Trello](https://trello.com/ledger3) will be used to track the project's tasks.
