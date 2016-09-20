@@ -40,7 +40,7 @@ reviews have been performed.
 ### Reviewer
 
 Check to make sure what is stated as done is completed and that the merge will not adversely affect the base branch. Reviewers should check off their name on the
-[Trello](https://trello.com/ledger3) ticket once their review is complete and any issues have been addressed. Unless asked the review should be short and simple. See the following list of normal things to check for.
+[Jira](http://cjm721.com:8080/secure/Dashboard.jspa) ticket once their review is complete and any issues have been addressed. Unless asked the review should be short and simple. See the following list of normal things to check for.
 
 * Naming
   * Inconsistent Names
@@ -83,4 +83,4 @@ The team will use a scrum based process to aid in development. Sprints will be
 one week long. Sprint retrospective and grooming will be held each Wednesday
 after the meeting with the client. Stand-up meetings will be held each Monday,
 Wednesday, and Friday. Monday meetings will be held at 5pm in one of the department's Computer Science labs. Wednesday meetings will be held at 2:30, and Friday meetings
-will be held at 3:30. [Trello](https://trello.com/ledger3) will be used to track the project's tasks.
+will be held at 3:30. [Jira](http://cjm721.com:8080/secure/Dashboard.jspa) will be used to track the project's tasks.
