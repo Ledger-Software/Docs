@@ -15,6 +15,8 @@ We have received the following features to implement from our client
   things such as recurring bill payments
 * Ability to tag and categorize individual transactions so that the user can more
   easily search and filter transactions
+* The System should be able to automatically suggest tags for imported payments
+
 
 #Development Systems
 ## IDE
