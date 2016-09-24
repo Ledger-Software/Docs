@@ -4,11 +4,11 @@ In this document we will outline our thought process and reasoning behind each o
 
 ##Database
 
-We’ve chosen to use UnQLite as our backend database. It is an embedded NoSQL database engine, with support for both key/value and JSON document storage.
+We've chosen to use SQLite as our backend database. It is a very popular embedded SQL database engine that supports relational database architectures.
 
-The support for JSON document storage is the primary reason we chose to use UnQLite (as Quicken financial records are stored as JSON objects). UnQLite also provides more than sufficient performance and storage for the needs of this project. It’s driven by a powerful disk storage engine that supports O(1) lookup, and can support terabyte sized databases.
+SQLite's popularity is the primary reason we chose it. It has very thorough documentation, and widespread support across various languages. The relational database architecture will also help us organize the user's finanical accounts and transactions. SQLite also provides more than sufficient performance and storage (maximum database file size of 140 terabytes) for the needs of this project.
 
-For more information, visit the [official website](https://unqlite.org/) or its [GitHub repository](https://github.com/symisc/unqlite).
+For more information, visit the [official website](https://www.sqlite.org/).
 
 ##Encryption
 
