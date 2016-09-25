@@ -12,3 +12,4 @@
 * User accounts within app is a Q3 stretch goal
 * Need authorization (password/passcode) required to generate encryption key
 * Will want to enable multiple tags (categories) to be associated with a line item
+* Need to have a database design by next week
