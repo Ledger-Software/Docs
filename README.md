@@ -1,5 +1,9 @@
 # Documentation
-*_Describe Placement of Files here_*
+Archetecture.md describes the project archetecture and design principles.
+FullUML.png and SimplifiedUML.png give project UML diagrams
+FrameworkDocumentation.md describes the frameworks on which the application is built and why they were chosen
+Dev-Process.md details our development process
+Feature List.md lists all existing features of the application and further describes them
 
 ## Problem Statement
 Many currently marketed home and business finanace and accounting programs are insufficent in that they are not tailored to be flexible enough to meet all the needs of their clients, or that they are forcing a feature that isn't essential to the clients' needs. Our goal is to develop an easy to use, flexible application that will satisfactorily handle the client's finance and accounting related tasks.
@@ -23,6 +27,7 @@ We have received the following features to implement from our client
 [Jetbrains] Java IDE named [IDEA]
 
 ## Workflow Tracking
+We use [JIRA] to track our workflow.
 
 ## Continous Integration
 We use [Travis] for Continous Integration. All our teams repos can be found at [Travis-Ledger]
@@ -35,3 +40,4 @@ We use [Travis] for Continous Integration. All our teams repos can be found at [
 [IDEA]:                               https://www.jetbrains.com/idea/
 [Travis]:                             https://travis-ci.org/
 [Travis-Ledger]:                      https://travis-ci.org/Ledger-Software/
+[JIRA]:                               http://cjm721.com:8080/secure/RapidBoard.jspa

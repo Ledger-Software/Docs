@@ -1,20 +1,20 @@
-#Overview
+##Overview
 
 In this document we will outline our thought process and reasoning behind each of our framework/library choices. These choices are not set in stone, but represent our best estimate of resources that best match project requirements at this time.
 
-##Database
+#Database
 
-We've chosen to use SQLite as our backend database. It is a very popular embedded SQL database engine that supports relational database architectures.
+We've chosen to use H2 as our backend database. It is a very popular embedded SQL database engine that supports relational database architectures and file saves.
 
-SQLite's popularity is the primary reason we chose it. It has very thorough documentation, and widespread support across various languages. The relational database architecture will also help us organize the user's finanical accounts and transactions. SQLite also provides more than sufficient performance and storage (maximum database file size of 140 terabytes) for the needs of this project.
+H2's popularity as a light-weight embedded database is the primary reason we chose it. It has very thorough documentation, and widespread support across various languages. The relational database architecture will also help us organize the user's finanical accounts and transactions. H2 also provides more than sufficient performance and storage (maximum database file size of 4 terabytes) for the needs of this project.
 
-For more information, visit the [official website](https://www.sqlite.org/).
+For more information, visit the [official website](https://www.h2database.com/).
 
-##Encryption
+#Encryption
 
-We’ve chosen to use the [Java Cryptography Architecture](https://docs.oracle.com/javase/8/docs/technotes/guides/security/crypto/CryptoSpec.html) (JCA) for our cryptography library. JCA is developed by Oracle and has been included with java since version 1.1 of the JDK. JCA exposes APIs to allow programmers to easily access java’s encryption (symmetric/asymmetric block/stream ciphers), key generation and management, and secure random number generation.
+We’ve chosen to use [H2's built in Encryption] (http://www.h2database.com/html/features.html?highlight=encryption&search=Encry#file_encryption) H2 offers encryption using AES and a few other encryptions. We chose AES because it is the most secure of the ciphers that are offered. H2 handles encrypting and decrypting the database when provided a username and password. 
 
-##User Interface
+#User Interface
 
 [JavaFx](http://docs.oracle.com/javafx/) is our chosen framework for the User Interface. JavaFx includes a [charting library](http://docs.oracle.com/javafx/2/charts/jfxpub-charts.htm) so that we can include metrics and charts regarding the user’s data. 
 
