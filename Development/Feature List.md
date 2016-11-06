@@ -1,4 +1,4 @@
-#eatures
+#Features
 This document contains a detailed list of our features to-date.
 
 ##Import Financial Transaction Records From External Sources
