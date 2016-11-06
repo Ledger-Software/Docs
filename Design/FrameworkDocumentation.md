@@ -1,8 +1,8 @@
-##Overview
+#Overview
 
 In this document we will outline our thought process and reasoning behind each of our framework/library choices. These choices are not set in stone, but represent our best estimate of resources that best match project requirements at this time.
 
-#Database
+##Database
 
 We've chosen to use H2 as our backend database. It is a very popular embedded SQL database engine that supports relational database architectures and file saves.
 
@@ -10,11 +10,11 @@ H2's popularity as a light-weight embedded database is the primary reason we cho
 
 For more information, visit the [official website](https://www.h2database.com/).
 
-#Encryption
+##Encryption
 
 We’ve chosen to use [H2's built in Encryption] (http://www.h2database.com/html/features.html?highlight=encryption&search=Encry#file_encryption) H2 offers encryption using AES and a few other encryptions. We chose AES because it is the most secure of the ciphers that are offered. H2 handles encrypting and decrypting the database when provided a username and password. 
 
-#User Interface
+##User Interface
 
 [JavaFx](http://docs.oracle.com/javafx/) is our chosen framework for the User Interface. JavaFx includes a [charting library](http://docs.oracle.com/javafx/2/charts/jfxpub-charts.htm) so that we can include metrics and charts regarding the user’s data. 
 
