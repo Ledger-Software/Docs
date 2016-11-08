@@ -1,12 +1,13 @@
 # Documentation
-Archetecture.md describes the project archetecture and design principles.
-FullUML.png and SimplifiedUML.png give project UML diagrams
-FrameworkDocumentation.md describes the frameworks on which the application is built and why they were chosen
-Dev-Process.md details our development process
-Feature List.md lists all existing features of the application and further describes them
+Our detailed documentation can be found in the following files:
+* Design/Architecture.md describes the  our project's architecture and design principles.
+* Design/Images contains FullUML.png and SimplifiedUML.png, which represent our project's UML diagrams.
+* Design/FrameworkDocumentation.md lists our 3rd-party frameworks/libraries and the reasoning supporting each choice.
+* Development/DevProcess.md provides details about our development process.
+* Development/FeatureList.md provides a list of all currently implemented features.
 
 ## Problem Statement
-Many currently marketed home and business finanace and accounting programs are insufficent in that they are not tailored to be flexible enough to meet all the needs of their clients, or that they are forcing a feature that isn't essential to the clients' needs. Our goal is to develop an easy to use, flexible application that will satisfactorily handle the client's finance and accounting related tasks.
+Many currently marketed personal finance and accounting programs are insufficient in that they are not tailored to be flexible enough to meet all the needs of their clients, or that they are forcing a feature that isn't essential to the clients' needs. Our goal is to develop an easy to use, flexible application that will satisfactorily handle the client's finance and accounting related tasks.
 
 We have received the following features to implement from our client
 * Ability to import financial transaction records from extern sources (i.e. a bank
@@ -29,8 +30,8 @@ We have received the following features to implement from our client
 ## Workflow Tracking
 We use [JIRA] to track our workflow.
 
-## Continous Integration
-We use [Travis] for Continous Integration. All our teams repos can be found at [Travis-Ledger]
+## Continuous Integration
+We use [Travis] for Continuous Integration. All our teams repos can be found at [Travis-Ledger]
 
 
 
