@@ -2,7 +2,7 @@
 
 ## Overview
 
-The overall goal is to create a great product in the shortest amount of time.
+The overall goal is to create a quality product in the shortest amount of time.
 
 ## Commits To Master
 
