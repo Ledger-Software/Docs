@@ -1,14 +1,14 @@
-##Retrospective #1 Notes - September 21, 2016
+## Retrospective #1 Notes - September 21, 2016
 
-##Good
+## Good
 * Got work done!
 * Good meeting with Sriram
 * Acheived self-set deadlines
 
-##Bad
+## Bad
 * Blocked by Sean
 
-##Improvements
+## Improvements
 * Documentation
 * JIRA use
 * Merging stuff when done
